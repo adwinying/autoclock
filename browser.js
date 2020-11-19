@@ -55,7 +55,7 @@ const login = async (page) => {
 
   // Persist login confirm
   await page.waitForSelector(submitSelector)
-  await page.waitForTimeout(1000)
+  await page.waitForTimeout(2000)
   await page.click(submitSelector)
 }
 
